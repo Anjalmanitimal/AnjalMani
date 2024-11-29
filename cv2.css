@@ -1,0 +1,260 @@
+/* *{
+    outline: 1px solid red;
+} */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #2c3e50;
+    background: #f4f4f9;
+    line-height: 1.5;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar Styles */
+.navbar {
+    width: 100%;
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ecf0f1;
+}
+
+.navbar nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+.navbar nav ul li {
+    font-size: 14px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav ul li a {
+    color: #ecf0f1;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar nav ul li a:hover {
+    background-color: #f39c12;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Main Content Styling */
+main {
+    margin-top: 80px;
+    padding: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 40px;
+    padding-top: 80px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.subheading {
+    font-size: 20px;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+/* About Me Section */
+.about {
+    text-align: center;
+}
+
+.profile-img {
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border: 5px solid #f39c12;
+}
+
+/* Skills Section */
+.skills {
+    margin-top: 30px;
+}
+
+.skill-bar {
+    margin-bottom: 15px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #3498db;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+/* Projects Section */
+.projects {
+    margin-top: 30px;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+
+.project a {
+    color: #3498db;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Experience Section */
+.experience {
+    margin-top: 30px;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+}
+
+/* Hobbies Section */
+.hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hobbies li {
+    font-size: 16px;
+}
+
+/* Contact Section */
+.contact {
+    margin-top: 40px;
+}
+
+.contact h1 {
+    font-size: 32px;
+    color: #2c3e50;
+}
+
+.contact p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #7f8c8d;
+}
+
+/* Home Section Styling */
+.home-container {
+    display: flex;
+    justify-content: space-between; /* Space between the two sections */
+    align-items: center; /* Align items vertically */
+    padding: 20px;
+    gap: 100px; /* Add some padding */
+  }
+  
+  .intro {
+    flex: 1; /* Takes up 50% of the width */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .about-me {
+    flex: 1; /* Takes up 50% of the width */
+    padding-left: 20px; /* Add space between intro and about me */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  @media (max-width: 768px) {
+    .home-container {
+      flex-direction: column; /* Stack items vertically */
+      text-align: center;
+    }
+  
+    .about-me {
+      padding-left: 0; /* Remove left padding for smaller screens */
+    }
+  }
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar nav ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar nav ul li {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+}
+ 
