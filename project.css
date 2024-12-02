@@ -1,0 +1,124 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #5bccbd; 
+    color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+nav a {
+    text-decoration: none; /* Removes underline */
+    color: #000; /* Sets text color to black or any color you prefer */
+    font-weight: 500;
+    margin: 0 15px; /* Adds spacing between links */
+    transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+nav a:hover {
+    color: #0ce395; /* Change color on hover */
+}
+
+.download-btn {
+    background-color: #0ce395;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.profile-pic {
+    position: absolute; /* Allows precise positioning */
+    top: 10px; /* Adjust the vertical distance */
+    right: 150px; /* Adjust the horizontal distance */
+    z-index: 10; /* Ensures it stays on top */
+}
+
+.profile-pic img {
+    width: 60px; /* Adjust the size */
+    height: 60px;
+    border-radius: 50%; /* Makes it circular */
+    border: 2px solid #fff; /* Optional: Adds a border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow */
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #000;
+}
+
+.content h1 span {
+    
+    color: rgb(230, 12, 230);
+    font-weight: bold;
+}
+
+.content h1 strong {
+    color: rgb(1, 0, 1);
+}
+
+.content p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.tracking {
+    display: flex;
+    margin-top: 20px;
+}
+
+.tracking input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.tracking button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #12b26f;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+}
+
+.van-image img {
+    width: 450px;
+    border-radius: 5px;
+}
+
+
+
