@@ -1,0 +1,112 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f9;
+    color: #333;
+}
+
+/* CV Container */
+.cv-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Sidebar */
+.cv-sidebar {
+    background: #d400bf;
+    color: #c6cccc;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.cv-sidebar h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.cv-sidebar p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.cv-sidebar .contact-info h2,
+.cv-sidebar .skills h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+}
+
+.cv-sidebar .skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cv-sidebar .skills ul li {
+    background: #a27817;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Profile Photo */
+.cv-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #fff;
+}
+
+/* Main Section */
+.cv-main {
+    width: 70%;
+    padding: 20px 30px;
+}
+
+.cv-main section {
+    margin-bottom: 20px;
+}
+
+.cv-main h2 {
+    color: #0078d4;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0078d4;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.cv-main p {
+    line-height: 1.6;
+}
+
+.cv-experience h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.cv-experience p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.cv-experience ul {
+    margin: 10px 0;
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.cv-experience ul li {
+    margin: 5px 0;
+}
